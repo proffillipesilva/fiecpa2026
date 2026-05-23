@@ -2,11 +2,11 @@
 import { DEVICE_TYPES } from '../types/deviceTypes';
 
 let devices = [
-  { id: 1, type: DEVICE_TYPES.LAMP, name: 'Lâmpada Sala', isOn: false },
-  { id: 2, type: DEVICE_TYPES.LAMP, name: 'Lâmpada Quarto', isOn: true },
-  { id: 3, type: DEVICE_TYPES.SENSOR, name: 'Sensor Presença Sala', sensorValue: 'detectado', sensorType: 'presence' },
-  { id: 4, type: DEVICE_TYPES.SENSOR, name: 'Sensor Luminosidade Jardim', sensorValue: 320, sensorType: 'luminosity', unit: 'lux' },
-  { id: 5, type: DEVICE_TYPES.LED, name: 'LED Cozinha', isOn: false, interruptorVinculado: 'Interruptor Parede' },
+  { id: 1, type: DEVICE_TYPES.LAMP, name: 'Lâmpada Sala 01', isOn: false },
+  { id: 2, type: DEVICE_TYPES.LAMP, name: 'Lâmpada Quarto 02', isOn: true },
+  { id: 3, type: DEVICE_TYPES.SENSOR, name: 'Sensor Presença Sala 03', sensorValue: 'detectado', sensorType: 'presence' },
+  { id: 4, type: DEVICE_TYPES.SENSOR, name: 'Sensor Luminosidade Jardim 04', sensorValue: 320, sensorType: 'luminosity', unit: 'lux' },
+  { id: 5, type: DEVICE_TYPES.LED, name: 'LED Cozinha 05', isOn: false, interruptorVinculado: 'Interruptor Parede' },
 ];
 let nextId = 6;
 
